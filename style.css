@@ -15,12 +15,12 @@ body{
 
 .main-container{
     background-color: lavender;
-    border: 5px solid rgba(47,47,47,1);
-    border-radius: 4px;
+    border: 2px solid rgba(47,47,47,1);
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    padding: 5px;
+    gap: 10px;
+    padding: 10px;
 }
 .screen{
     grid-column: 1 / -1;
@@ -48,9 +48,10 @@ button{
   border: 1px solid rgb(209,213,219);
   border-radius: .5rem;
   color: #111827;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 600;
-  padding: 20px;
+  padding: 15px;
+  margin: 3px;
   text-align: center;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   cursor: pointer;
