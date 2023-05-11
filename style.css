@@ -69,9 +69,13 @@ button:hover {
     gap: 2px;
     
 }
-#equal{
+#equal-btn{
     grid-column-start: 3;
     grid-column-end: 5;
+}
+#clear-btn{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 

@@ -1,3 +1,15 @@
+const numberButtons = document.querySelectorAll('.number')
+const operationButtons = document.querySelectorAll('.operator')
+const deleteButtons = document.querySelectorAll('.delete')
+const equalButtons = document.querySelectorAll('.equal')
+const clearButtons = document.querySelectorAll('.clear')
+const previousOperandTextElement = document.querySelectorAll('#previousOperationScreen')
+const currentOperandTextElement = document.querySelectorAll('#currentOperationScreen')
+
+
+
+
+
 function add(a,b){
     return a + b;
 }
