@@ -19,9 +19,7 @@ const operatorObject = {
     '+': add,'-':subtract,'*':multiply,'/':divide
 }
 function operate(firstNumber,operator,lastNumber){
-
     return operatorObject[operator](firstNumber,lastNumber);
-
 }
 
 console.log(operate(2,'*',5))
