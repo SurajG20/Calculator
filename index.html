@@ -13,9 +13,8 @@
 <body>
     <div class="main-container">
         <div class="screen">
-            <div class="display">
-                10
-            </div>
+            <div class="screen-last" id="lastOperationScreen"></div>
+            <div class="screen-current" id="currentOperationScreen">0</div>
         </div>
         <div class="button-rows">
             <button class="clear">
@@ -44,9 +43,9 @@
             <button class="operator">+</button>
         </div>
         <div class="button-rows">
-            <button class="number" id="zero-button">0</button>
+            <button class="number">0</button>
             <button class="decimal">.</button>
-            <button class="equal">=</button>
+            <button id="equal">=</button>
         </div>
 
     </div>

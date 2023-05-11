@@ -10,13 +10,19 @@ function multiply(a,b){
 function divide(a,b){
     return a/b;
 }
+function negation(a){
+    return -a;
+}
+function percentage(a){
+    return a/100;
+}
 
 const firstNumber = 0;
 const lastNumber = 0;
 const operator = "+";
 
 const operatorObject = {
-    '+': add,'-':subtract,'*':multiply,'/':divide
+    '+': add,'-':subtract,'*':multiply,'/':divide,'+/-':negation,'%':percentage
 }
 function operate(firstNumber,operator,lastNumber){
     return operatorObject[operator](firstNumber,lastNumber);
