@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="main-container">
-        <div class="screen">
-            <div class="screen-last" id="previousOperationScreen"></div>
-            <div class="screen-current" id="currentOperationScreen">0</div>
-        </div>
-        <div class="button-rows">
-            <button class="clear" id="clear-btn">
-                AC
-            </button>
-            <button class="delete">del</button>
-            <button class="operator">/</button>
-        </div>
-        <div class="button-rows">
-            <button class="number">7</button>
-            <button class="number">8</button>
-            <button class="number">9</button>
-            <button class="operator">*</button>
-        </div>
-        <div class="button-rows">
-            <button class="number">4</button>
-            <button class="number">5</button>
-            <button class="number">6</button>
-            <button class="operator">-</button>
-        </div>
-        <div class="button-rows">
-            <button class="number">1</button>
-            <button class="number">2</button>
-            <button class="number">3</button>
-            <button class="operator">+</button>
-        </div>
-        <div class="button-rows">
-            <button class="number">0</button>
-            <button class="number">.</button>
-            <button class="equal" id="equal-btn">=</button>
-        </div>
 
-    </div>
+<body>
+    <main>
+        <div class="main-container">
+            <div class="screen">
+                <div class="screen-last" id="previousOperationScreen"></div>
+                <div class="screen-current" id="currentOperationScreen">0</div>
+            </div>
+            <div class="button-rows">
+                <button class="clear" id="clear-btn">
+                    AC
+                </button>
+                <button class="delete">del</button>
+                <button class="operator">/</button>
+            </div>
+            <div class="button-rows">
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">*</button>
+            </div>
+            <div class="button-rows">
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">-</button>
+            </div>
+            <div class="button-rows">
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">+</button>
+            </div>
+            <div class="button-rows">
+                <button class="number">0</button>
+                <button class="number">.</button>
+                <button class="equal" id="equal-btn">=</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>
+          Copyright ©
+          2023
+          SurajG20
+        </p>
+      </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
