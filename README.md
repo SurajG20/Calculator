@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-    <img src="./assets/images/calculator.png" alt="Logo" width="150">
+    <img src="images/icon.png" alt="Logo" width="150">
 </div>
 
 <h3 align="center">Calculator</h3>
@@ -26,29 +26,6 @@
  <img src="images/preview.png">
 </div>
 
-<!-- USAGE EXAMPLES -->
-## Usage
-- <details> <summary>For Mobile</summary>
-
-  - ### General
-    - Click the visual buttons to use Calculator
-
-</details>
-
-- <details> <summary>For Desktop</summary>
-
-  - ### General
-    - You can also click visual buttons for access
-    - Refer additional information below
-  - ### Additional 
-    - `Keyboard Supported`
-    - `Backspace Key`: Deletes a value
-    - `Enter Key`: Show the Result
-    - `0-9 Keys`: Takes input for Numbers
-    - `'C' Key`:  Clears the Display
-    - `Operation Keys`: Operates with operands
-</details>
-<br>
 
 ## Features
 
