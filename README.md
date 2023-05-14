@@ -96,7 +96,7 @@
 	<img src="https://img.shields.io/badge/linkedin-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt=Linkedin>
 </a>&nbsp;&nbsp;&nbsp;
 <a href="mailto:Surajgoswami3000@gmail.com" target="_blank">
-	<img src="https://img.shields.io/badge/0xabdulkhalid@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Frontend-Mentor">
+	<img src="https://img.shields.io/badge/Surajgoswami3000@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 </a> &nbsp;&nbsp;&nbsp;
 
 </div>
